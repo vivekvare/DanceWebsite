@@ -1,0 +1,10 @@
+touch .gitignore
+git config --global user.name vivekvare
+git config --global user.email youremail@example.com
+git init
+git add .
+git commit -m "Initial Commit"
+git status #just to see if working tree is clean
+go to settings and perform all procedure of generating key gen keygen
+git remote add origin <ssh url.git>
+git push origin master
