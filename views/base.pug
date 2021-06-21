@@ -1,0 +1,26 @@
+//- base.pug
+doctype html
+html
+  head
+    title My Site - #{title}
+    block scripts
+    block style 
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="../static/img/logo.png" )
+                |  HDA
+            li #[a(href="/") Home ]
+            li #[a(href="/") Contact ]
+            li #[a(href="/") About ]
+            li #[a(href="/") Join ]
+            li #[a(href="/contact") Contact us]
+
+            
+    block content
+    block foot
+    footer#footer
+        h2  Copyright © 2021 harry.com All rights reserved
+    //- script   
+    //-     include ../static/index.js
